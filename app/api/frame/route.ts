@@ -5,11 +5,7 @@ export async function POST(_req: Request) {
     type: "frame",
     frame: {
       image: "https://placehold.co/600x400?text=Button+Clicked+🎉",
-      buttons: [
-        { label: "✅ Done" }
-        export {};
-
-      ],
+      buttons: [{ label: "✅ Done" }],
     },
   });
 }
